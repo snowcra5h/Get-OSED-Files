@@ -4,7 +4,6 @@ Serve files to and from the OSED lab
 ## presetup steps
 ### set up PATH
 1. [ ] if you don't have `~/.local/bin`  in your PATH you will need to add it.
-	- `if you use zsh change .bashrc to .zshrc`
 bash
 ```bash
 snowcrash@hoory.fook.n.sheeit $ echo 'export PATH=~/.local/bin:$PATH' | tee -a ~/.bashrc
@@ -69,7 +68,6 @@ updog -d ~/osedfs -p 9000
  * Running on http://*********:9000
 Press CTRL+C to quit
 ```
-	- Note that you may want to use the --ssl flag here for some things.
 ### REMOTE ON THE WINDOWS BOX
 #### DOWNLOADING TO WINDOWS BOX
 1. [ ] open powershell
