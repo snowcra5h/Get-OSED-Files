@@ -3,14 +3,12 @@ Serve files to and from the OSED lab
 
 ## presetup steps
 ### set up PATH
-1. [ ] if you don't have `~/.local/bin`  in your PATH you will need to add it.
-bash
+1. [ ] if you don't have `~/.local/bin` in your PATH you will need to add it.
 ```bash
 snowcrash@hoory.fook.n.sheeit $ echo 'export PATH=~/.local/bin:$PATH' | tee -a ~/.bashrc
 
 snowcrash@hoory.fook.n.sheeit $ source ~/.bashrc
 ```
-zsh
 ```bash
 snowcrash@hoory.fook.n.sheeit $ echo 'export PATH=~/.local/bin:$PATH' | tee -a ~/.zshrc
 
