@@ -3,7 +3,7 @@ Serve files to and from the OSED lab
 
 ## presetup steps
 ### set up PATH
-1. [ ] if you don't have `~/.local/bin` in your PATH you will need to add it. Using one of the following commands.
+1. [ ] Using one of the following commands. Add `~/.local/bin` to your PATH.
 ```bash
 snowcrash@hoory.fook.n.sheeit $ echo 'export PATH=~/.local/bin:$PATH' | tee -a ~/.bashrc
 
