@@ -3,7 +3,7 @@ Serve files to and from the OSED lab
 
 ## presetup steps
 ### set up PATH
-1. [ ] if you don't have `~/.local/bin` in your PATH you will need to add it.
+1. [ ] if you don't have `~/.local/bin` in your PATH you will need to add it. Using one of the following commands.
 ```bash
 snowcrash@hoory.fook.n.sheeit $ echo 'export PATH=~/.local/bin:$PATH' | tee -a ~/.bashrc
 
@@ -13,6 +13,9 @@ snowcrash@hoory.fook.n.sheeit $ source ~/.bashrc
 snowcrash@hoory.fook.n.sheeit $ echo 'export PATH=~/.local/bin:$PATH' | tee -a ~/.zshrc
 
 snowcrash@hoory.fook.n.sheeit $ source ~/.zshrc
+```
+```bash
+snowcrash@hoory.fook.n.sheeit $ export PATH=~/.local/bin:$PATH
 ```
 ### set up OSED lab
 1. [ ] connect to the OSED vpn
