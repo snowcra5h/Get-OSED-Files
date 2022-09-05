@@ -14,7 +14,7 @@ snowcrash@hoory.fook.n.sheeit $ echo 'export PATH=~/.local/bin:$PATH' | tee -a ~
 
 snowcrash@hoory.fook.n.sheeit $ source ~/.zshrc
 ```
-### connect to OSED vpn
+### set up OSED lab
 1. [ ] connect to the OSED vpn
 ```bash
 snowcrash@hoory.fook.n.sheeit $ sudo openvpn snow.ovpn
