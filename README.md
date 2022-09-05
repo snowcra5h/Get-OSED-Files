@@ -76,7 +76,7 @@ snowcrash@hoory.fook.n.sheeit $ export PATH=~/.local/bin:$PATH
 Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-PS C:\Users\Offsec> (New-Object Net.WebClient).DownloadFile("http://192.168.49.185:9000/test.txt", "test.txt")
+PS C:\Users\Offsec> (New-Object Net.WebClient).DownloadFile("http://192.168.***.***:9000/test.txt", "test.txt")
 ```
 3. [ ] confirm download
 ```powershell
