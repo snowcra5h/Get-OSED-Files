@@ -1,5 +1,5 @@
 # Get-OSED-Files
-Serve files to and from OSED Server
+Serve files to and from OSED Windows Machine
 ---
 
 ## presetup steps
