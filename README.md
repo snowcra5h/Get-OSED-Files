@@ -33,7 +33,7 @@ lo: 0
 
 tun0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1500
         inet 192.168.***.***  netmask 255.255.255.0  destination 192.168.***.***
-        inet6 fe80::be6b:a766:4faf:41b  prefixlen 64  scopeid 0x20<link>
+        inet6 ********  prefixlen 64  scopeid 0x20<link>
         unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
         RX packets 34590  bytes 4857565 (4.8 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
