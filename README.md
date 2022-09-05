@@ -2,21 +2,6 @@
 Serve files to and from the OSED lab 
 
 ## presetup steps
-### set up PATH [This is an optional step. Resolves issue launching updog]
-1. [ ] Using one of the following commands. Add `~/.local/bin` to your PATH.
-```bash
-snowcrash@hoory.fook.n.sheeit $ echo 'export PATH=~/.local/bin:$PATH' | tee -a ~/.bashrc
-
-snowcrash@hoory.fook.n.sheeit $ source ~/.bashrc
-```
-```bash
-snowcrash@hoory.fook.n.sheeit $ echo 'export PATH=~/.local/bin:$PATH' | tee -a ~/.zshrc
-
-snowcrash@hoory.fook.n.sheeit $ source ~/.zshrc
-```
-```bash
-snowcrash@hoory.fook.n.sheeit $ export PATH=~/.local/bin:$PATH
-```
 ### set up OSED lab
 1. [ ] connect to the OSED vpn
 ```bash
@@ -43,8 +28,6 @@ tun0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1500
         TX packets 64101  bytes 9370717 (9.3 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
-
----
 ## setup steps
 ### LOCAL YOUR KALI VM
 3. [ ] make a directory to serve files to and from locally
@@ -68,6 +51,22 @@ updog -d ~/osedfs -p 9000
  * Running on http://127.0.0.1:9000
  * Running on http://*********:9000
 Press CTRL+C to quit
+```
+#### [Optional] Possible issues
+If updog wont launch there's a good chance you need to add ~/.local/bin to the `PATH` environment variable.
+1. [ ] Use one of the following commands.
+```bash
+snowcrash@hoory.fook.n.sheeit $ echo 'export PATH=~/.local/bin:$PATH' | tee -a ~/.bashrc
+
+snowcrash@hoory.fook.n.sheeit $ source ~/.bashrc
+```
+```bash
+snowcrash@hoory.fook.n.sheeit $ echo 'export PATH=~/.local/bin:$PATH' | tee -a ~/.zshrc
+
+snowcrash@hoory.fook.n.sheeit $ source ~/.zshrc
+```
+```bash
+snowcrash@hoory.fook.n.sheeit $ export PATH=~/.local/bin:$PATH
 ```
 ### REMOTE ON THE WINDOWS BOX
 #### DOWNLOADING TO WINDOWS BOX
