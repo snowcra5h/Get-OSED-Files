@@ -1,5 +1,5 @@
 # Get-OSED-Files
-Serve files to and from OSED Windows Machine
+Serve files to and from OSED winbox
 ---
 
 ## presetup steps
