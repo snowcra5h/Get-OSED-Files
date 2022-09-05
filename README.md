@@ -34,7 +34,7 @@ snowcrash@hoory.fook.n.sheeit $ xfreerdp /monitors:0 /multimon /u:Offsec /p:lab 
 ### LOCAL YOUR KALI VM
 1. [ ] make a directory to serve files to and from locally
 ```bash
-snowcrash@hoory.fook.n.sheeit $ ~/osedfs
+snowcrash@hoory.fook.n.sheeit $ mkdir ~/osedfs
 ```
 2. [ ] add a test file to download on the windows VM
 ```bash
@@ -63,7 +63,7 @@ Press CTRL+C to quit
 Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-PS C:\Users\Offsec> (New-Object Net.WebClient).DownloadFile("http://192.168.49.185:9000/test.txt", "test.txt")
+PS C:\Users\Offsec> (New-Object Net.WebClient).DownloadFile("http://192.168.*.***:9000/test.txt", "test.txt")
 ```
 3. [ ] confirm download
 ```powershell
